@@ -15,12 +15,15 @@ takes 30 minutes. For ten clients it takes half a day. This script does the
 entire thing in under 10 seconds with no human involvement.
 
 ## Measurable result
-- Processing time: under 10 seconds (including Airtable fetch and Claude API call)
+- Processing time: under 10 seconds including Airtable fetch and Claude API call
+- Manual equivalent: 30 minutes of opening Airtable, counting records,
+  writing a summary, and formatting a report — done every week by hand
 - Records read from Airtable: 2 leads
-- Report sections generated: 5 (executive summary, urgency breakdown, status
-  breakdown, lead highlights, next actions)
+- Report sections generated: 5 (executive summary, urgency breakdown,
+  status breakdown, lead highlights, next actions)
 - Output: timestamped .txt file saved to reports/ folder
 - Report successfully generated: yes
+- Human involvement required: zero after setup
 
 ## Tech stack: 2026 versions
 - Python 3.12.0
